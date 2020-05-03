@@ -1,0 +1,47 @@
+header{
+    height: 80vh;
+    background-image: url(../img/Fondo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    .menu{
+        margin: 30px 0;
+        text-align: right;
+    }
+    a{
+        margin: 0 20px;
+        color: black;
+        padding-bottom: 5px;
+        font-size: 1rem;
+        text-decoration: none;
+        display: inline-block;
+        border-bottom: 2px solid transparent;
+        &:hover{
+            border-bottom: 2px solid black;
+        }
+    }
+    .contenedor-texto{
+        display: flex;
+        margin: 120px 0;
+        align-items: center;
+        justify-content: center;
+    }
+    .texto{
+        border: 2px solid rgba(#fff, 0.5);
+        border-radius: 15px;
+        display: inline-block;
+        text-align: center;
+        padding: 0 60px;
+    }
+    h1{
+        color: black;
+        font-weight: 600;
+        margin: -20px;
+        font-size: 2.6rem;
+    }
+    h3{
+        color: black;
+        font-weight: 600;
+        font-size: 1.6rem;
+    }
+}

@@ -1,0 +1,20 @@
+footer{
+    background: rgb(117, 117, 117);
+    padding: 35px 0;
+    text-align: center;
+    .footer-redes i{
+        padding: 10px 25px;
+        justify-content: space-between;
+        font-size: 1.5rem;
+        color: white;
+        transition: all .3s ease;
+        margin: 0 5px;
+        display: inline-block;
+        border-radius: 5px;
+        &.fa-facebook-f:hover{background-color: #3b5998;}
+        &.fa-twitter:hover{background-color: #1da1f2;}
+        &.fa-instagram:hover{background-color: #405de6;}
+        &.fa-github:hover{background-color: #4078c0;}
+        &.fa-youtube:hover{background-color: #ff0000;}
+    }
+}

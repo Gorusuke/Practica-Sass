@@ -1,0 +1,77 @@
+@media screen and (max-width:768px){
+    .main{
+        .proyectos{
+            .contenedor-galeria{
+                .galeria{
+                    width: 48%;
+                }
+            }
+        }
+        .contacto{
+            .contenedor{
+                width: 90%;
+            }
+        }        
+    }
+}
+
+@media screen and (max-width:425px){    
+   header{
+       .menu{
+           text-align: center;
+           a{
+               margin: 0 10px;
+               color: black;
+               font-size: .9rem;
+           }
+       }
+       .contenedor-texto{
+           margin: 90px 0;
+           .texto{
+               padding: 0 35px;
+               h1{
+                   font-size: 1.7rem;
+                   margin: -5px;
+               }
+               h3{
+                   font-size: 1.2rem;
+                   margin-top: -15px;
+                }
+            }
+        }
+    } 
+
+    .main{
+        .contacto{
+            .contenedor{
+                width: 90%;
+            }
+        }           
+        .acerca-de{
+            .foto{
+                margin-top: -55px;
+                img{
+                    width: 100px;
+                }
+            }
+        }
+        .proyectos{
+            .contenedor-galeria{
+                .galeria{
+                    width: 100%;
+                }
+            }
+        }        
+    }
+
+    footer{
+        .footer-redes{
+            i{
+                padding: 5px 15px;
+                font-size: 1rem;
+                margin: 0 5px;
+                border-radius: 2px;
+            }
+        }
+    }
+}
